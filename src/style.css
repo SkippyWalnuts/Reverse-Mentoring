@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(to right, rgb(10%, 39%, 28%), rgb(0%, 29%, 18%));
+  
+}
+
+h1 {
+    color: #b6cdbd;
+    font-size: 80px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+h2,
+h3 {
+    background: #b6cdbd;
+    border-radius: 3px;
+    color: #392f2f;
+    font-size: 25px;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px 50px;
+    text-align: center;
+
+}
+
+
+p {
+    color: #b6cdbd;
+    display: block;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+
+}
+
+.description {
+    font-family: monospace;
+}
+
+.participants {
+    color: #f1d665;
+    font-weight: bolder;
+}
+
+.footnote {
+    border-radius: 2px;
+    font-family: Microbrew, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    color: #f1d665;
+    font-size: 25px;
+    list-style: none;
+    margin: 16px 0px 16px 0px;
+    padding: 10px;
+}
+
+li {
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 170ms ease-in-out;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.workshops:hover {
+    background: #b6cdbd;
+    color: #392f2f;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    color: #f1d665;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.learn-more:hover {
+    text-transform: none;
+    transition: all 120ms ease-in-out;
+}
+
+button {
+    background: #f1d665;
+    border: 1px solid #392f2f;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgb(0 0 0 / 50%);
+    color: #392f2f;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 25px auto 0 auto;
+    padding: 15px 20px;
+    transition: all 120ms ease-in-out;
+}
+
+button:hover {
+    background: transparent;
+    border: 1px solid #f1d665;
+    color: #f1d665;
+}
