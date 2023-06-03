@@ -1,30 +1,32 @@
 body {
-    background: linear-gradient(to right, rgb(10%, 39%, 28%), rgb(0%, 29%, 18%));
+    background: #1c274a;
     font-family: monospace;
+    margin: 50px 25px;
 }
 
 h1 {
-    color: #b6cdbd;
-    font-size: 64px;
-    margin: 50px auto 20px;
+    color: #a2d0de;
+    font-size: 80px;
+    margin: 0 auto 20px;
     text-align: center;
 }
 
 h2,
 h3 {
-    background: #b6cdbd;
-    border-radius: 3px;
-    color: #392f2f;
-    font-size: 25px;
+    background: #a2d0de;
+    border-radius: 2px;
+    color: #1c274a;
+    font-size: 30px;
+    font-weight: 600;
     margin: 0 auto;
     max-width: 80%;
-    padding: 20px 50px;
+    padding: 20px;
     text-align: center;
 
 }
 
 p {
-    color: #b6cdbd;
+    color: #e8ab49;
     display: block;
     font-size: 25px;
     line-height: 35px;
@@ -33,7 +35,7 @@ p {
 }
 
 ul {
-    color: #f1d665;
+    color: #e8ab49;
     font-size: 25px;
     list-style: none;
     margin: 16px 0px 16px 0px;
@@ -52,7 +54,7 @@ li {
 
 a {
     display: block;
-    color: #f1d665;
+    color: #e8ab49;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
@@ -60,7 +62,7 @@ a {
 }
 
 button {
-    background: #f1d665;
+    background: #e8ab49;
     border: 1px solid #392f2f;
     border-radius: 20px;
     box-shadow: 2px 5px 5px rgb(0 0 0 / 50%);
@@ -75,8 +77,8 @@ button {
 
 button:hover {
     background: transparent;
-    border: 1px solid #f1d665;
-    color: #f1d665;
+    border: 1px solid #e8ab49;
+    color: #e8ab49;
 }
 
 
@@ -89,7 +91,7 @@ button:hover {
 }
 
 .participants {
-    color: #f1d665;
+    color: #a2d0de;
     font-weight: bolder;
 }
 
@@ -105,8 +107,8 @@ button:hover {
 }
 
 .workshops:hover {
-    background: #b6cdbd;
-    color: #392f2f;
+    background: #a2d0de;
+    color: #1c274a;
     cursor: pointer;
 }
 
