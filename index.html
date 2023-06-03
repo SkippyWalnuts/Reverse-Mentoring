@@ -15,7 +15,7 @@
   
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid content">
     <div class="titles">
         <h1>
             🤝🏽
@@ -29,12 +29,12 @@
     <hr>
 
     <img src="src/images/reverse-mentoring.webp"
-    class="img-fluid"    
+    class="img-fluid rev-mentor-img"    
     alt="Reverse Mentoring" />
 
     <hr>
 
-    <div class="description">
+    <div>
         <p>
             In the 2022 Reverse Mentoring scheme with Global Media, employees with under-represented identities at
             leadership-level became
@@ -115,5 +115,28 @@
     <p class="footnote">
         This page was built by <span class="participants">Rebecca Early</span>
     </p>
-  </body>
+
+    <script>
+function applicationForm() {
+
+let role = prompt("Are you applying to be a Mentor or Mentee?");
+let name = prompt("What is your name?");
+let jobLevel = prompt("Do you work at dentsu?")
+jobLevel = jobLevel.toLowerCase().trim().replace();
+if (jobLevel === "yes") {
+    alert("Thank you for applying to be a " + role + ", " + name + "! 🥳🎉");
+}
+else {
+    alert("Come and work for dentsu to become a " + role + ", " + name + "! 📜✍🏾")
+}
+
+}
+
+let applicationButton = document.querySelector("button");
+applicationButton.addEventListener("click", applicationForm)
+
+
+    </script>
+
+   </body>
 </html>

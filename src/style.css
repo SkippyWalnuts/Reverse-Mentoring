@@ -1,12 +1,12 @@
 body {
     background: linear-gradient(to right, rgb(10%, 39%, 28%), rgb(0%, 29%, 18%));
-  
+    font-family: monospace;
 }
 
 h1 {
     color: #b6cdbd;
-    font-size: 80px;
-    margin: 0 auto 20px;
+    font-size: 64px;
+    margin: 50px auto 20px;
     text-align: center;
 }
 
@@ -23,7 +23,6 @@ h3 {
 
 }
 
-
 p {
     color: #b6cdbd;
     display: block;
@@ -31,26 +30,6 @@ p {
     line-height: 35px;
     text-align: justify;
 
-}
-
-.description {
-    font-family: monospace;
-}
-
-.participants {
-    color: #f1d665;
-    font-weight: bolder;
-}
-
-.footnote {
-    border-radius: 2px;
-    font-family: Microbrew, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 auto;
-    max-width: 50%;
-    padding: 10px;
-    text-align: center;
 }
 
 ul {
@@ -70,11 +49,6 @@ li {
     max-width: 400px;
 }
 
-.workshops:hover {
-    background: #b6cdbd;
-    color: #392f2f;
-    cursor: pointer;
-}
 
 a {
     display: block;
@@ -83,11 +57,6 @@ a {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-.learn-more:hover {
-    text-transform: none;
-    transition: all 120ms ease-in-out;
 }
 
 button {
@@ -109,3 +78,41 @@ button:hover {
     border: 1px solid #f1d665;
     color: #f1d665;
 }
+
+
+.content {
+    max-width: 800px;
+}
+
+.titles {
+    text-transform: uppercase;
+}
+
+.participants {
+    color: #f1d665;
+    font-weight: bolder;
+}
+
+.footnote {
+    border-radius: 2px;
+    font-family: Microbrew, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.workshops:hover {
+    background: #b6cdbd;
+    color: #392f2f;
+    cursor: pointer;
+}
+
+
+.learn-more:hover {
+    text-transform: none;
+    transition: all 120ms ease-in-out;
+}
+
